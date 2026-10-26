@@ -188,18 +188,11 @@
   padding: 30px;
   margin-bottom: 0;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   align-items: center;
   border: 2px solid transparent;
   height: 100%;
   width: 100%;
-}
-
-.event-category-horizontal:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-  border-color: #ff69b4;
 }
 
 .category-icon-left {
@@ -218,11 +211,6 @@
 .category-icon-left i {
   color: #fff;
   font-size: 1.8rem;
-}
-
-.category-icon-left:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
 }
 
 .category-content h4 {
