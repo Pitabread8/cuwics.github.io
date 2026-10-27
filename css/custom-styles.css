@@ -380,7 +380,11 @@
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-.sponsor-card img:hover {
+.sponsor-card img {
+  transition: transform 0.3s ease;
+}
+
+.sponsor-card:hover img {
   transform: scale(1.1);
 }
 
